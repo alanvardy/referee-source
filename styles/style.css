@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.info-section p, h4 {
+  max-width: 300px;
+  min-width: 200px;
+  text-overflow: clip;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.info-section:hover h4 {
+  text-decoration: underline;
+  text-shadow: 1px 2px 3px black;
+}
